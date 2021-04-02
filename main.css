@@ -117,6 +117,7 @@ body {
   height: 100%;
   position: relative;
   top: 100%;
+  z-index: 1;
   right: 10px;
   -webkit-transform: translateY(50%);
           transform: translateY(50%);
@@ -158,6 +159,7 @@ body {
 label {
   display: block;
   position: relative;
+  z-index: 2;
   top: 1rem;
   left: 0;
 }
